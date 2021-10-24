@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Deloar2.png" type="image/x-icon">
+    <title>dp</title>
+</head>
+<style>
+
+.bat{
+    transform: rotate(45deg);
+    transition: transform 0.2s;
+    transform-origin: 20% 0%;
+    margin-left: 100px;
+
+}
+
+.field:hover .bat{
+    transform: rotate(0deg);
+}
+.ball{
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 530px;
+    top: -150px;
+    transition: transform 0.5s ease-in-out 0.3s;
+
+}
+
+.field:hover .ball{
+   transform: translate(800px, -400px);
+    
+
+}
+
+
+
+
+</style>
+<body>
+
+
+    <div class="field">
+        <img class="bat" src="img/cricket-bata.png" alt="bat" title="Cricket Bat">
+        <div class="ball">
+
+        </div>
+    </div>
+
+</body>
+</html>
